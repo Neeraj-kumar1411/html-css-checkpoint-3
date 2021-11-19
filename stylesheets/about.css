@@ -1,0 +1,357 @@
+@import url("./reset.css");
+@import url("./flex.css");
+@import url("./global.css");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:wght@100;900&family=Poppins:wght@100;300&display=swap"); */
+
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:wght@100;900&family=Poppins:wght@100;300&display=swap'");
+}
+/* custom--style */
+
+/*    header---- */
+
+.ptx {
+  color: var(--tex-color);
+  font-size: 13px;
+}
+
+.upper-header {
+  background: var(--blue);
+}
+
+.lower-div {
+  /* border: 1px solid black; */
+  padding: 30px 0;
+}
+.logo {
+  /* border: 1px solid black; */
+}
+.links {
+  /* border: 1px solid black; */
+}
+.add-mail-nav {
+  padding: 10px;
+}
+.add-mail-nav a {
+  color: white;
+  font-size: 16px;
+}
+.header-nav {
+  margin: 0 5px;
+}
+
+.add-mail {
+  width: 600px;
+  vertical-align: middle;
+}
+.e-mail {
+  margin-left: 70px;
+  color: white;
+  vertical-align: middle;
+  padding-top: 3px;
+}
+.mail-icon {
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.ul-links {
+  margin-right: 80px;
+}
+.ul-links a {
+  color: var(--blue);
+}
+.header-links {
+  margin: 0 15px;
+  font-size: 15px;
+  font-weight: 900;
+}
+.header-btn-color {
+  color: white;
+  font-weight: 600;
+}
+
+/* about--section */
+
+.about-section {
+  max-width: 100vw;
+  background-image: url("../assets/hero/about_hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.h1 {
+  font-size: 40px;
+  font-weight: 800;
+  padding: 100px 0;
+  color: white;
+}
+/* client-section */
+
+h2 {
+  font-size: 25px;
+  font-weight: 900;
+  /* padding-left: 30px; */
+}
+.section-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.client-section-div {
+  width: 40%;
+}
+.client-img {
+  width: 100%;
+  height: inherit;
+}
+.trusted-div {
+  width: 60%;
+  height: 283px;
+  text-justify: auto;
+  /* border: 1px solid black; */
+  position: relative;
+  right: 70px;
+  top: 91px;
+  background: rgba(255, 255, 255, 0.75);
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.trusted-sub-div {
+  width: 70%;
+  margin-left: 30px;
+  /* border: 1px solid black; */
+}
+.trusted-para {
+  color: var(--blue);
+  font-weight: 500;
+  font-size: 13px;
+  padding: 25px 0;
+}
+.trusted-btn {
+  /* margin-left: 30px; */
+}
+
+/* team-section */
+.team-section {
+  background: #f6f9fe;
+  padding: 100px 0;
+}
+.team-article-section {
+  width: 1050px;
+}
+.team-article {
+  width: 32%;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.team-img {
+  width: 100%;
+  background-size: cover;
+}
+.article-box3 {
+  width: 23%;
+  border: 3px solid #eb646e;
+  background: #ffffff;
+  padding: 40px;
+}
+.article-box3 hr {
+  width: 70px;
+  margin-right: 230px;
+  height: 2px;
+  margin: 20px 0;
+  border: none;
+  background-color: #eb646e;
+}
+.view-profile {
+  padding-top: 20px;
+  display: inline-block;
+  color: rgb(48, 43, 43);
+  font-weight: 550;
+  font-size: 10px;
+}
+/* clifford-section */
+
+.clifford-div {
+  width: 700px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  /* padding: 0 200px; */
+}
+
+.clifford-img {
+  /* margin-left: 180px; */
+  margin: 100px 0 30px 300px;
+}
+.p3 {
+  margin-left: 242px;
+  font-size: 17px;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+.p1 {
+  margin-left: 120px;
+  font-size: 17px;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+.star {
+  margin-left: 300px;
+}
+.fa-star {
+  color: #f4b942;
+  margin: 30px 0;
+}
+.contact-name {
+  margin-left: 220px;
+  margin-bottom: 50px;
+}
+.txt {
+  font-size: 17px;
+  font-weight: bold;
+  word-spacing: 5px;
+  margin-left: 106px;
+}
+.name1 {
+  font-weight: 600;
+  color: rgb(43, 41, 41);
+}
+.name2 {
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(155, 151, 151);
+}
+
+/* news  */
+.news-section-div {
+  margin: 40px 0;
+  /* border: 1px solid black; */
+}
+.news-article {
+  width: 32%;
+  margin-bottom: 100px;
+}
+.news-article-img {
+  width: 100%;
+}
+.news-a {
+  color: red;
+  font-weight: 500;
+  font-size: 15px;
+}
+h4 {
+  font-size: large;
+  font-weight: 600;
+}
+.time {
+  color: black;
+  font-size: 15px;
+}
+h5 {
+  font-size: 45px;
+  word-spacing: 10px;
+  /* letter-spacing: 5px; */
+  font-weight: 600;
+}
+
+/* form-section */
+.form-section {
+  background: #0b2d5b;
+  padding: 80px 0;
+}
+.request-form-heading {
+  width: 30%;
+  color: white;
+  padding-top: 20px;
+}
+
+.form-para {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+.form-div {
+  width: 60%;
+  /* border: 1px solid white; */
+  padding: 1.5rem;
+  /* padding-bottom: 0rem; */
+  vertical-align: middle;
+}
+#fname {
+  width: 45%;
+  height: 45px;
+  background: #0b2d5b;
+  border: none;
+  box-sizing: border-box;
+  color: white;
+  /* padding: 5px 0; */
+  border: 2px solid rgb(117, 117, 146);
+  border-radius: 4px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+#phn {
+  width: 50%;
+  height: 45px;
+  background: #0b2d5b;
+  border: none;
+  box-sizing: border-box;
+  color: white;
+  /* padding: 15px 0; */
+  border: 2px solid rgb(117, 117, 146);
+  border-radius: 4px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+#srvs {
+  color: white;
+  width: 65%;
+  height: 45px;
+  background: #0b2d5b;
+  color: slategray;
+  border: none;
+  box-sizing: border-box;
+  border: 2px solid rgb(117, 117, 146);
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+#srvs option {
+  color: white;
+}
+.fbtn {
+  width: 30%;
+  height: 45px;
+  border: none;
+  border-radius: 4px;
+}
+/* footer */
+.h6 {
+  color: #0b2d5b;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer-div {
+  padding: 100px 0 60px 0;
+  border-bottom: 1px solid rgb(115, 168, 141);
+}
+
+.footer-ptx {
+  padding: 20px 0;
+}
+.footer-icon {
+  color: gray;
+  margin-right: 10px;
+}
+.lower-footer {
+  text-align: center;
+  padding: 30px 0;
+}
+.material-icons-outlined {
+  color: red;
+  font-size: 40px;
+}
+.heart {
+  color: red;
+}
